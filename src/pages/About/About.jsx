@@ -1,7 +1,7 @@
-import PostModel from "src/components/PostModel/PostModel";
-import fotoCapa from "src/assets/sobre_mim_capa.png";
+import PostModel from "../../components/PostModel/PostModel";
+import fotoCapa from "../../assets/sobre_mim_capa.png";
 import styles from "./style.module.css";
-import fotoSobreMim from "src/assets/sobre_mim_foto.png";
+import fotoSobreMim from "../../assets/sobre_mim_foto.png";
 
 export default function About() {
   return (

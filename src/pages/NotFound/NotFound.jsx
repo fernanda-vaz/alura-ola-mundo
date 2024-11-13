@@ -1,6 +1,6 @@
-import MyButton from "src/components/MyButton/MyButton";
+import MyButton from "../../components/MyButton/MyButton";
 import styles from "./style.module.css";
-import erro404 from "src/assets/erro_404.png";
+import erro404 from "../../assets/erro_404.png";
 import { useNavigate } from "react-router-dom";
 
 export default function NotFound() {

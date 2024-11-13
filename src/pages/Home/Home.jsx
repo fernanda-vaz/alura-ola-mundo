@@ -1,6 +1,6 @@
 import styles from "./style.module.css";
-import posts from "src/json/posts.json";
-import PostCard from "src/components/PostCard/PostCard";
+import posts from "../../json/posts.json";
+import PostCard from "../../components/PostCard/PostCard";
 
 export default function Home() {
   return (

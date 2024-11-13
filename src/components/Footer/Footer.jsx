@@ -1,5 +1,5 @@
 import styles from './style.module.css'
-import MarcaRegistrada from 'src/assets/marca_registrada.svg?react'
+import MarcaRegistrada from '../../assets/marca_registrada.svg?react'
 
 export default function Footer() {
     return (

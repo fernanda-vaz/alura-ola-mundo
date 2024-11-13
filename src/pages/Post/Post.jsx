@@ -1,12 +1,12 @@
 import { Route, Routes, useParams } from "react-router-dom";
-import posts from "src/json/posts.json";
+import posts from "../../json/posts.json";
 import PostModel from "../../components/PostModel/PostModel";
 import ReactMarkdown from "react-markdown";
 import "./style.css";
-import NotFound from "src/pages/NotFound/NotFound";
+import NotFound from "../NotFound/NotFound";
 import DefaultPage from "../Default/DefaultPage";
 import styles from "./style.module.css";
-import PostCard from "src/components/PostCard/PostCard";
+import PostCard from "../../components/PostCard/PostCard";
 
 export default function Post() {
   const params = useParams();
